@@ -1,0 +1,43 @@
+# -- general --
+*.xml
+*.log
+*.dat
+*.csv
+*.tmp
+logs
+package-lock.json
+
+# -- vagrant --
+.vagrant/
+
+# -- javascript --
+.sass-cache/
+*.css.map
+
+# -- node --
+# Logs
+npm-debug.log*
+/logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+.ext
+.tmp
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules/
+dist/
+target/
+
+# React ignores
+*.iml
+webpack-assets.json
+webpack-stats.json
+
+scripts/*.json
